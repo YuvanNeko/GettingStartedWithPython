@@ -1,0 +1,6 @@
+my_file = open("Python/python.txt", "w")
+my_write = my_file.write("Hello")
+my_file = open("Python/python.txt", "r")
+txt = my_file.read()
+print(txt)
+my_file = my_file.close()

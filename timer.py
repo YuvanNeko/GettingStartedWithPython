@@ -9,5 +9,6 @@ def countdown(t):
         t -= 1
       
     print('Fire in the hole!!')
-t = input("Enter the time in seconds: ")
+t = int(input("Enter the time in minutes: "))
+t = t*60
 countdown(int(t))
